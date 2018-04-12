@@ -30,7 +30,7 @@ Merkle Tree的主要作用是当拿到Top Hash的时候，这个hash值代表了
 一个nibble被加到key前（下图中的prefix），对终止符的状态和奇偶性进行编码。最低位表示奇偶性，第二低位编码终止符状态。如果key是偶数长度，那么加上另外一个nibble，值为0来保持整体的偶特性。
 ![image](Pictures/nibble.png)   
 ![image](Pictures/trie_mpt.png)   
-参考资料：
-Merkle Tree:  http://blog.csdn.net/wo541075754/article/details/54632929
-tree： http://dongxicheng.org/structure/trietree/
-MPT： https://blog.csdn.net/qq_33935254/article/details/55505472
+参考资料：    
+Merkle Tree:  http://blog.csdn.net/wo541075754/article/details/54632929    
+tree： http://dongxicheng.org/structure/trietree/    
+MPT： https://blog.csdn.net/qq_33935254/article/details/55505472    
